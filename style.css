@@ -1,0 +1,82 @@
+html{
+  font-family: 'Poppins', sans-serif;
+}
+.nav{
+  display:flex;
+  align-items: center;
+}
+
+.logo{
+  width: 160px;
+  margin-left: 170px;
+}
+.options{
+  display: flex;
+  column-gap: 60px;
+  margin-left: 250px;
+}
+.but{
+  border-radius: 0px 0px 10px 10px;
+  padding: 5px 20px;
+  padding-top: 60px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.6s;
+}
+.menu{
+  width: 70px;
+  height: 26px;
+  align-self: last baseline;
+  margin-left: 200px;
+}
+button{
+  background-color: rgb(196, 218, 51);
+  border: none;
+  box-shadow: 6px 8px 15px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.content{
+  display: flex;
+}
+.image{
+  padding-top: 60px;
+  flex: 1;
+}
+.im1{
+  width: 600px;
+}
+.intro{
+  padding-top: 170px;
+  padding-left: 70px;
+  flex: 1;
+}
+p{
+  font-size: 51px;
+  font-weight: 600;
+  width: 100%;
+}
+.im2{
+  position: relative;
+  top: -230px;
+  width: 300px;
+}
+.options .but span{
+  height: 0px;
+  background-color: rgb(196, 218, 51);
+  width: 110px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  border-radius: 0px 0px 10px 10px;
+  transition: all 0.5s;
+}
+.but:hover span{
+  height: 87px;
+}
